@@ -10,5 +10,6 @@ Rails.application.routes.draw do
 
   # con este metodo podemos generar automaticamente todas las rutas de la aplicación que se crearon manualmente. por lo que con este método podemos comentar o borrar las rutas anteriores.
   resources :products
+  root 'products#index'
 
 end
